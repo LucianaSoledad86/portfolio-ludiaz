@@ -1,0 +1,39 @@
+.about-conteiner{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 70vh;
+    padding: 100px 0px 100px 0px;
+}
+
+.about-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0 100px 0 100px;
+}
+
+.about-desc > h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+
+}
+
+.about-desc > p {
+    line-height: 1.5;
+}
+
+.about-img{
+    width: 40%;
+    margin-top: 60px;
+    display: flex;
+    align-self: center;
+    overflow: hidden;
+}
+
+.about-img > img {
+    width:500px; 
+    height: 575px;
+    border-radius: 50px;
+}
