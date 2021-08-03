@@ -1,7 +1,7 @@
 .about-conteiner{
     display: flex;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     height: 70vh;
     padding: 100px 0px 100px 0px;
 }
