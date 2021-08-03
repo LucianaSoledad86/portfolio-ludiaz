@@ -14,7 +14,7 @@ const Navbar = ({ isScrolling }) => {
                 
                     <a style={{marginLeft:'400px'}}>Luz / </a>
                     <a>Idioma / </a>
-                    <a>Formal/Daily </a>
+                    <a>Formal/Daily asd </a>
                 
             </div>
         </div>
