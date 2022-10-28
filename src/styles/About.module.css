@@ -1,0 +1,51 @@
+.conteiner {
+          display: flex;
+          background-color: black;
+          color: #ffffff;
+          height: 90vh;
+          padding: 100px 0px 100px 0px;
+}
+
+.desc {
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 120%;
+          width: 50%;
+           margin-left: 20px;
+}
+
+
+
+.desc p {
+          line-height: 1.5;
+          font-size: 18px;
+          margin-left: 30px;
+}
+
+
+
+.henry {
+          text-decoration: none;
+          color: #f9f21b;
+          font-weight: 700;
+}
+
+.aboutImg {
+          width: 25%;
+          margin-top: 70px;
+          display: flex;
+          align-self: center;
+          overflow: hidden;
+          margin-left: 200px;
+          margin-right: 150px;
+}
+
+.aboutImg img {
+          width: 450px;
+          height: 550px;
+          border-radius: 60px;
+          
+}
+

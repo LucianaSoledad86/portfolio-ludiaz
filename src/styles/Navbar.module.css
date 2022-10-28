@@ -1,0 +1,27 @@
+.navbar {
+          position: fixed;
+          top: 0;
+          background-color: transparent;
+          width: 100%;
+          padding-left: 50px;
+          font-size: 20px;
+          z-index: 1;
+}
+
+.scrolling {
+          background-color: rgb(9, 9, 9);
+          transition: all 0.5 ease;
+}
+
+.logo {
+          height: 60px;
+          line-height: 80px;
+          color: #ffff;
+          cursor: pointer;
+}
+    
+
+    
+
+
+
