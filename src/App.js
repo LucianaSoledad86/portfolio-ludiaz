@@ -1,29 +1,31 @@
-import Cover from "./components/cover/Cover"
-import Navbar  from "./components/navbar/Navbar"
-import About from "./components/about/About"
+import React, { useState, useEffect } from "react";
+import "./App.css";
+
+import Cover from "./components/Cover";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
 import Slider from "./components/slider/Slider";
-import React, {useState, useEffect} from "react";
-import "./App.css" 
+import Footer from "./components/Footer";
 
 function App() {
-
-  const [ scrollHeight, setScrollHeight] = useState(0);
+  const [scrollHeight, setScrollHeight] = useState(0);
 
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollHeight(position);
-  }
+  };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll)}
-    , [scrollHeight]);
+    window.addEventListener("scroll", handleScroll);
+  }, [scrollHeight]);
 
   return (
     <div className="App">
+      <Cover />
       <Navbar isScrolling={scrollHeight} />
-      <Cover/>
-      <About/>
+      <About />
       <Slider />
+      <Footer />
     </div>
   );
 }

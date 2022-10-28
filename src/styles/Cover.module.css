@@ -1,0 +1,60 @@
+.container {
+          height: 100vh;
+          width: 100%;
+          object-fit: contain;
+          box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+
+.video {
+          object-fit: cover;
+          width: 100%;
+          height: 100vh;
+          position: absolute;
+          z-index: -1;
+}
+
+.container h1 {
+          color: #ffff;
+          font-size: 100px;
+}
+
+.luciana {
+          display: none;
+          color: #ffff;
+}
+
+@media (min-width:992px) {
+          .luciana {
+                    display: block;
+                    position: relative;
+                    right: 0;
+                    bottom: -5px;
+                    animation-name: Luciana;
+                    animation-duration: 5s;
+                    animation-iteration-count: 1;
+                    animation-delay: 0s;
+                    animation-timing-function: ease-in-out;
+          }
+}
+
+/*ANIMACIÓN*/
+@keyframes Luciana {
+          0% {
+                    opacity: 0;
+                    transform: translateX(-10rem);
+          }
+
+          50% {
+                    opacity: 0;
+          }
+
+          100% {
+                    opacity: 1;
+                    transform: translateX(0);
+          }
+}
+
